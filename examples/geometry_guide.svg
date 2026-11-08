@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1536 825" role="img" aria-label="Schematic of the X banner and avatar overlap">
+<defs><linearGradient id="bg" x1="0" x2="1"><stop stop-color="#101325"/><stop offset="1" stop-color="#28151d"/></linearGradient><linearGradient id="flow" x1="0" x2="1"><stop stop-color="#ef9d2b"/><stop offset=".45" stop-color="#a83bce"/><stop offset="1" stop-color="#ff9531"/></linearGradient></defs>
+<rect width="1536" height="825" fill="#07070c"/><rect width="1536" height="512" fill="url(#bg)"/>
+<path d="M45,512 Q82,434 210,461 Q331,474 400,510 Q600,400 810,450 T1430,330" fill="none" stroke="url(#flow)" stroke-width="10" stroke-linecap="round"/><path d="M50,512 Q90,430 210,458 Q310,460 390,510" fill="none" stroke="#ffdf94" stroke-width="3" opacity=".8"/>
+<circle cx="210" cy="617" r="165" fill="#050505"/><circle cx="210" cy="617" r="158" fill="#252d49" stroke="#151515" stroke-width="10"/>
+<g font-family="Arial,sans-serif" fill="#e4edf8" text-anchor="middle"><text x="210" y="605" font-size="30" font-weight="bold">AVATAR</text><text x="210" y="636" font-size="17">PLACEHOLDER</text><text x="850" y="575" font-size="24">BANNER BOTTOM  y = 512</text><text x="875" y="640" font-size="21">AVATAR CENTER  (210, 617)</text><text x="875" y="684" font-size="21">TOP OVERLAP ≈ 53 px</text></g>
+<line x1="0" x2="1536" y1="512" y2="512" stroke="#72bdbf" stroke-width="3" stroke-dasharray="8,10"/></svg>

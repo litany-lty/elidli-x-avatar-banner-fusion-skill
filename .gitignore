@@ -1,0 +1,12 @@
+# Generated previews, personal screenshots, user assets and local geometry output
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+output/
+input/
+local/
+*.tmp
+layout.json
+*.log
+.pytest_cache/

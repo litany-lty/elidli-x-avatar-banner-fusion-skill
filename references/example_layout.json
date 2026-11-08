@@ -1,0 +1,6 @@
+{
+  "schema": "x-avatar-banner-fusion/layout-v1",
+  "banner": {"width": 1536, "height": 512},
+  "avatar": {"cx": 210.0, "cy": 617.0, "radius": 158.0},
+  "provenance": "heuristic based on one confirmed mobile success; replace from actual screenshot when available"
+}
