@@ -27,6 +27,10 @@ class BannerFusionTests(unittest.TestCase):
         with Image.open(ROOT / 'output' / 'demo_banner.png') as img:
             self.assertEqual(img.size, (1536, 512))
 
+    def test_public_success_reference_has_no_embedded_ui_and_right_ratio(self):
+        with Image.open(ROOT / 'assets' / 'success_reference_1536x512.webp') as img:
+            self.assertEqual(img.size, (1536, 512))
+
     def test_default_avatar_intersects_only_bottom_strip(self):
         report = mod.geometry_report(self.cfg)
         self.assertGreater(report['overlap']['height_px'], 20)

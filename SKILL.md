@@ -109,7 +109,7 @@ python3 scripts/banner_fusion.py shift --input output/banner.png \
 
 ## 借鉴成功案例
 
-- 成功案例构图规律见 `references/geometry.md` 与 `references/success_case.md`。仓库没有包含个人图片；可用 `scripts/make_demo_banner.py` 生成中性演示背景。
+- 成功案例构图规律见 `references/geometry.md` 与 `references/success_case.md`。纯背景视觉案例见 `assets/success_reference_1536x512.webp`（无头像或个人信息）；也可用 `scripts/make_demo_banner.py` 生成中性演示背景。
 - 关键做法：真正低位的左侧浅弧（上方留出能量羽流）、较薄的底部土地/暗带、由左向右的五彩丝带、右侧主体。**不能只模仿色彩，必须复用位置关系。**
 - 经验性坐标：见 `references/example_layout.json` 与 `references/geometry.md`。设备和客户端差异优先于这些经验值。
 
@@ -119,6 +119,7 @@ python3 scripts/banner_fusion.py shift --input output/banner.png \
 - `references/prompt_templates.md`：可替换主题的主提示词、负面词、迭代提示词。
 - `references/example_layout.json`：示例头像参数（仅默认首稿）。
 - `scripts/banner_fusion.py`：计算、网格、预览、截图替换预览、偏移校准。
-- `examples/geometry_guide.svg`：可公开的头像/横幅叠加示意图（非真人头像、非生产背景）。
+- `assets/success_reference_1536x512.webp`：成功案例的可上传纯背景参考图，无真实头像。
+- `examples/geometry_guide.svg`：头像/横幅叠加示意图（非真人头像、非生产背景）。
 - `scripts/make_demo_banner.py`：生成示例 3:1 测试背景。
 - `README.md`：安装与命令说明。

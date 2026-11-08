@@ -74,6 +74,7 @@ python3 scripts/banner_fusion.py shift \
 | `references/prompt_templates.md` | 母提示词、精准值插入、偏移修复提示词 |
 | `references/example_layout.json` | 单一成功案例的经验性初稿参数 |
 | `references/success_case.md` | 从成功案例中提炼的几何与构图规则 |
+| `assets/success_reference_1536x512.webp` | 成功案例的 3:1 纯背景示例（不包含头像） |
 | `scripts/banner_fusion.py` | 可运行的测量/网格/预览/截屏预览/平移工具 |
 | `tests/test_banner_fusion.py` | 自动测试 |
 
@@ -87,4 +88,8 @@ https://github.com/litany-lty/elidli-x-avatar-banner-fusion-skill
 
 ## 可复用演示图
 
-`examples/geometry_guide.svg` 是示意图，不包含任何用户头像。`scripts/make_demo_banner.py` 生成的背景仅用于冒烟测试，不代表实际生图质量。公开仓库不包含原用户确认的艺术背景图，以避免把示例创作素材默认纳入可再许可资产。
+`examples/geometry_guide.svg` 是示意图，不包含任何用户头像。`scripts/make_demo_banner.py` 生成的背景仅用于冒烟测试，不代表实际生图质量。公开仓库额外包含经确认的成功纯背景展示素材（已压缩为 WebP）；不包含真实头像、个人主页截图或登录资料。
+
+### 成功背景参考（仅供欣赏与理解视觉结构）
+
+![成功纯横幅示例](assets/success_reference_1536x512.webp)
